@@ -9,7 +9,7 @@
 
 ###
 
-<img align="right" height="150" src="https://images.steamusercontent.com/ugc/872998386576371371/3694E72D5E5CA1EAB5F4E2746A1C264FED589FCE/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"  />
+<img align="right" height="150" src="https://images.steamusercontent.com/ugc/872998386576371371/3694E72D5E5CA1EAB5F4E2746A1C264FED589FCE/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" />
 
 ###
 
@@ -39,6 +39,9 @@
   </a>
   <a href="https://dasl0102.github.io/Mi-Portafolio/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Portfolio&logo=githubpages&label=&color=121013&logoColor=white&labelColor=&style=for-the-badge" height="35" />
+  </a>
+  <a href="https://www.tiktok.com/@dasl19" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=TikTok&logo=tiktok&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="35" />
   </a>
 </div>
 
