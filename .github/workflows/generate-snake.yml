@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Ejecuta cada día a las 00:00 UTC
+    - cron: "0 0 * * *"  # cada día a las 00:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -13,13 +13,12 @@ jobs:
         with:
           github_user_name: DASL0102
           outputs: |
-            output/snake.svg
-            output/snake-dark.svg?palette=github-dark
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
 
-      - name: Push to GitHub
-        uses: crazy-max/ghaction-github-pages@v3
+      - name: Push to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          target_branch: output
-          build_dir: output
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
